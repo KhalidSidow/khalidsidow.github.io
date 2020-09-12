@@ -1,18 +1,167 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Khalid Sidow</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Khalid Sidow</h1>
-<p>Hey there!🖐️ I’m Khalid and I’m just trying to keep some emergency moustaches here🤗</p>
- <!-- <img src="cowboy.svg" alt="Cowboy Moustache" />
-   <img src="italian-plumber.svg" alt="Italian plumber Moustache" />
-   <img src="abra-kadabra.svg" alt="Abra-Kadabra Moustache" />
-   <img src="rustybrush.svg" alt="Rusty Brush Moustache" />
-   <img src="oil-baron.svg" alt="Oil Baron Moustache" />
-   <img src="traditional-gent.svg" alt="Traditional Gent Moustache" /> -->
+
+  <div class="grid__container">
+
+    <header id="header" class="header">
+
+      <h3 class="logo">
+        <img id="header-img" src="https://i.imgur.com/mmXOHME.png" alt="Logo Moustache" width="48px">
+        Moustachos
+      </h3>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+      <nav id="nav-bar" class="navbar">
+        <ul class="nav-items">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#how-it-works" class="nav-link">How it works</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+
+      <label for="nav-toggle" class="label-for-nav">
+        <div class="hamburger">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </div>
+        <span>Menu</span>
+      </label>
+    </header>
+
+    <main id="hero">
+      <img src="https://i.imgur.com/GKmdN9F.png" alt="Emergency Moustache">
+      <div class="form__wrapper">
+        <h1 class="hero__title">Stash Your "Tash" For Emergency Situations!</h1>
+        <p>Emergency Moustaches For any moustache emergency!</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+          <input id="submit" type="submit" value="Join" class="btn" />
+        </form>
+      </div>
+    </main>
+
+    <section id="features" class="features">
+
+      <div class="title__wrapper description">
+        <h2 class="section__title">Features</h2>
+        <p><strong>Emergency moustaches to instantly become a man!</strong><br>
+          This pack of emergency moustaches lets those tash-less
+          <br> beings get their tash on wherever they go!
+          <br>
+          Featuring 6 different tash-tactic styles from
+          <br>classic caterpillar to Victorian gentleman,
+          <br>there's bound to be one for you!
+        </p>
+      </div>
+
+      <div class="container">
+
+        <div class="card">
+          <img class="card-image" src="https://khalidsidow.github.io/traditional-gent.svg"
+            alt="Traditional Gent Moustach">
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="https://khalidsidow.github.io/cowboy.svg" alt="Cowboy Moustach">
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="https://khalidsidow.github.io/rustybrush.svg" alt="Rusty Brush Moustach">
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="https://khalidsidow.github.io/italian-plumber.svg"
+            alt="Italian Plumber Moustach">
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="https://khalidsidow.github.io/oil-baron.svg" alt="Oil Baron Moustach">
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="https://khalidsidow.github.io/abra-kadabra.svg" alt="Abra-Kadabra Moustach">
+        </div>
+
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <div class="title__wrapper description">
+        <h2 class="section__title">How it works</h2>
+        <p>
+          <strong>Emergency Moustaches</strong><br>
+          Stick some hilarity onto your face.<br>
+          Wear the most magnificent moustache.<br>
+          Become anything from old English gent to biker.
+        </p>
+      </div>
+
+      <iframe id="video" width="666" height="528" src="https://www.youtube.com/embed/r0-YkH1O_yc" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+      <div class="title__wrapper discreption">
+        <h2 class="section__title">Delivery</h2>
+        <p>
+          <strong>Emergency Moustaches</strong><br>
+          This makes a hilarious gift for that not so serious friend of yours<br>
+          (even better if they have a problem
+          growing a moustache of their own!)
+        </p>
+      </div>
+      <div class="products__wrapper">
+        <article class="product__box">
+             <h3>The pack</h3>
+          <h4 class="product__title">Price: $9.95</h4>
+          <p>
+            Spinning Hat Emergency Mustaches, Set of 6, Styles
+          </p>
+          <button class="btn">Order</button>
+        </article>
+
+             <article class="product__box">
+          <h3>Standard Delivery</h3>
+          <h4 class="product__title">Price: $14.95</h4>
+          <p>
+            Delivered in 1 to 2 working days.
+          </p>
+          <button class="btn">Order</button>
+        </article>
+
+        <article class="product__box">
+          <h3>Emergency Delivery</h3>
+          <h4 class="product__title">Price: $19.95</h4>
+          <p>
+            Most emergency orders arrive next working
+              day if order placed before 15:30.
+          </p>
+          <button class="btn">Order</button>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>&copy;2020 Moustachos </span>
+    </footer>
+  </div>
 </body>
+
 </html>
