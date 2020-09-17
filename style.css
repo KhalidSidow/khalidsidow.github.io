@@ -149,7 +149,7 @@
     position: fixed;
     z-index: 999;
     top: 30px;
-    margin-left: 75%; 
+    margin-left: 87%; 
     outline: none;
     background-color: transparent;
     border: none;
@@ -173,11 +173,11 @@
   }
   
   .top {
-    transform: rotate(-40deg) translate(-3px, 8px);
+    transform: rotate(-45deg) translate(-3px, 8px);
   }
   
   .bottom {
-    transform: rotate(40deg) translate(-3px, -8px);
+    transform: rotate(45deg) translate(-3px, 8px);
   }
   
   .hamburger .menu {
