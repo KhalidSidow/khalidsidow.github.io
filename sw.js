@@ -7,9 +7,9 @@ const cacheAssets = [
   '/contact.html',
   '/style.css',
   '/dark.css',
-  'purple.css',
-  'burnt-sienna.css',
-  'brand.css',
+  '/purple.css',
+  '/burnt-sienna.css',
+  '/brand.css',
   '/script.js'
 ];
 
