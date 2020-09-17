@@ -1,0 +1,13 @@
+:root{
+	--mainColor: #ee7708;
+	--secondaryColor: #5BC3EB;
+
+	--mainText: #FFF;
+	--secondaryText: #000;
+
+
+	--buttonColor: #FFF;
+	--buttonText: #5BC3EB;
+	--button-hover: #ee7708;
+
+}
