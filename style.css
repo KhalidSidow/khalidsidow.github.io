@@ -164,10 +164,6 @@
     transition: 0.3s ease-in-out;
   }
 
-  .hamburger .one:hover, .hamburger .two:hover, .hamburger .three:hover {
-    background-color: var(--button-hover);
-  }
-  
   .hamburger .two {
     margin: 5px 0;
   }
